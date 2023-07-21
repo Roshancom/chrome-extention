@@ -164,12 +164,15 @@ form {
   display: flex;
   max-width: 100%;
 }
+.accordion .svg-wrapper{
+  padding: 10px;
+}
 .accordion span {
   flex: 0 0 10%;
 }
 .accordion svg {
   flex: 0 0 10%;
-  font-size: 35px;
+  height: 24px;  
 }
 .accordion img {
   flex: 0 0 10%;
@@ -181,8 +184,7 @@ form {
 .accordion .item {
   display: inline-block;
   flex: 0 0 71%;
-  font-size: 25px;
-  margin-left: 20px;
+  font-size: 20px;
   text-align: start;
 }
 .accordion .item:hover {
@@ -198,7 +200,7 @@ form {
   justify-content: center;
 }
 .accordion button svg {
-  font-size: 25px;
+  height: 24px;
 }
 .accordion:hover button {
   display: block;
@@ -206,6 +208,7 @@ form {
 .accordian-wrapper ul {
   background-color: #150050;
   list-style-type: none;
+  padding: 0;
   margin-bottom: 0;
 }
 .accordian-wrapper ul li {
@@ -213,7 +216,7 @@ form {
   color: #fff;
   cursor: pointer;
   display: flex;
-  font-size: 25px;
+  font-size: 18px;
   margin: 10px 0 10px 25px;
   text-align: start;
 }

@@ -23,13 +23,11 @@ const List = () => {
   const colRef = collection(firestore, "groups");
 
   React.useEffect(() => {
-    setTimeout(() => {
-      getDocs(colRef).then((snapshort) => {
-        const getGroups = snapshort.docs.map((doc) => doc.data());
-        setData(getGroups);
-        setLoading(false);
-      });
-    }, 200);
+    getDocs(colRef).then((snapshort) => {
+      const getGroups = snapshort.docs.map((doc) => doc.data());
+      setData(getGroups);
+      setLoading(false);
+    });
   }, [deleteGroup, deleteLink]);
 
   const handleclick = (e, i) => {
@@ -48,7 +46,6 @@ const List = () => {
   };
 
   const handleDeleteGroup = (e) => {
-    
     const confirm = window.confirm("To delete group 'click ok'");
     if (confirm) {
       const delGroup = e.target.id;

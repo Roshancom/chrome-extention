@@ -1,8 +1,8 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import { AiFillHome, AiOutlineUsergroupAdd } from "react-icons/ai";
-import { FaLink } from "react-icons/fa";
+import { AiFillHome } from "react-icons/ai";
+import { FaLink, FaFolderPlus } from "react-icons/fa";
 
-const Buttons = ({buttonActive}) => {
+const Buttons = ({ buttonActive }) => {
   const location = useLocation();
 
   const navigate = useNavigate();
@@ -47,7 +47,7 @@ const Buttons = ({buttonActive}) => {
         }`}
         onClick={handleGroupClick}
       >
-        <AiOutlineUsergroupAdd />
+        <FaFolderPlus />
       </button>
     </div>
   );

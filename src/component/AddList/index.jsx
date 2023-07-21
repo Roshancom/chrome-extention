@@ -3,7 +3,6 @@ import { firestore } from "../../firebase";
 import { collection, getDoc, getDocs, doc, setDoc } from "@firebase/firestore";
 import Form from "./Form";
 
-
 const AddList = () => {
   const [data, setData] = React.useState();
   const [input, SetInput] = React.useState({});
@@ -15,13 +14,11 @@ const AddList = () => {
   const colRef = collection(firestore, "groups");
 
   React.useEffect(() => {
-    setTimeout(() => {
-      getDocs(colRef).then((snapshort) => {
-        const group = snapshort.docs.map((doc) => doc.data().group);
-        setGroups(group);
-        setLoading(false);
-      });
-    }, 300);
+    getDocs(colRef).then((snapshort) => {
+      const group = snapshort.docs.map((doc) => doc.data().group);
+      setGroups(group);
+      setLoading(false);
+    });
   }, []);
 
   React.useEffect(() => {
@@ -112,11 +109,11 @@ const AddList = () => {
           ) : null}
 
           {groupSelect.clickStatus ? (
-            <Form 
-            handleSubmit = {handleSubmit}
-            handleChange = {handleChange}
-            groupSelect = {groupSelect}
-            input = {input}
+            <Form
+              handleSubmit={handleSubmit}
+              handleChange={handleChange}
+              groupSelect={groupSelect}
+              input={input}
             />
           ) : null}
         </div>
