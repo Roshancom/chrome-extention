@@ -1,7 +1,7 @@
 import * as DI from "react-icons/di";
 import * as SI from "react-icons/si";
 import * as FA from "react-icons/fa";
-
+import * as GI from "react-icons/gi"
 const ResolveIcon = ({ icon }) => {
   const iconResolverPack = (icon) => {
     switch (true) {
@@ -13,6 +13,9 @@ const ResolveIcon = ({ icon }) => {
       }
       case icon.toLowerCase().startsWith("fa") && icon in FA: {
         return FA[icon];
+      }
+      case icon.toLowerCase().startsWith("gi") && icon in GI: {
+        return GI[icon];
       }
       default:
         return () => <span></span>;

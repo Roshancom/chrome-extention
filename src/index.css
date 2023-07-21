@@ -156,6 +156,7 @@ form {
   font-size: 20px;
 }
 .accordion {
+  padding: 8px;
   align-items: center;
   background-color: #fb2576;
   border-bottom: 2px solid #150050;
@@ -164,15 +165,13 @@ form {
   display: flex;
   max-width: 100%;
 }
-.accordion .svg-wrapper{
-  padding: 10px;
-}
+
 .accordion span {
   flex: 0 0 10%;
 }
 .accordion svg {
   flex: 0 0 10%;
-  height: 24px;  
+  height: 24px;
 }
 .accordion img {
   flex: 0 0 10%;
@@ -181,11 +180,15 @@ form {
   height: fit-content;
   object-fit: cover;
 }
+.accordion .items-wrapper {
+  padding: 10px;
+  padding-right: 0;
+  display: flex;
+  align-items: center;
+  flex: 0 0 90%;
+}
 .accordion .item {
-  display: inline-block;
-  flex: 0 0 71%;
   font-size: 20px;
-  text-align: start;
 }
 .accordion .item:hover {
   color: #000;
@@ -196,7 +199,6 @@ form {
   border-radius: 20px;
   color: #fff;
   display: none;
-  flex: 0 0 10%;
   justify-content: center;
 }
 .accordion button svg {
@@ -206,9 +208,8 @@ form {
   display: block;
 }
 .accordian-wrapper ul {
-  background-color: #150050;
   list-style-type: none;
-  padding: 0;
+  padding-left: 15px;
   margin-bottom: 0;
 }
 .accordian-wrapper ul li {
@@ -217,7 +218,8 @@ form {
   cursor: pointer;
   display: flex;
   font-size: 18px;
-  margin: 10px 0 10px 25px;
+  justify-content: space-between;
+  padding: 10px;
   text-align: start;
 }
 .accordian-wrapper ul li span {
@@ -231,8 +233,7 @@ button.delete-link {
   background-color: initial;
   border: 0;
   color: #fff;
-  flex: 0 0 20%;
-  font-size: 25px;
+  height: 24px;
   outline: none;
 }
 .buttons .btn {

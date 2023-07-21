@@ -20,7 +20,7 @@ const Accordian = ({
               handleclick(e, i);
             }}
           >
-            <div className="svg-wrapper">
+            <div className="items-wrapper">
               {el.reactIcons ? (
                 <ResolveIcon icon={el.reactIcons} />
               ) : el.url ? (
@@ -28,9 +28,9 @@ const Accordian = ({
               ) : (
                 <span></span>
               )}
+              <div className="item">{el.group}</div>
             </div>
 
-            <div className="item">{el.group}</div>
             <button id={el.group} onClick={handleDeleteGroup}>
               <MdDelete style={{ pointerEvents: "none" }} />
             </button>

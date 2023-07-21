@@ -45,7 +45,7 @@ const Group = () => {
       } catch (err) {
         console.log(err.message);
       }
-      setGroupName({ group: "", url: "" });
+      setGroupName({ group: "", url: "", reactIcon: "" });
     }
 
     setNotify(true);
