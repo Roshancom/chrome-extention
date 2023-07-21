@@ -163,6 +163,7 @@ form {
   color: #fff;
   cursor: pointer;
   display: flex;
+  min-height: 50px;
   max-width: 100%;
 }
 
@@ -224,7 +225,7 @@ form {
 }
 .accordian-wrapper ul li span {
   flex: 0 0 80%;
-  font-size: 20px;
+  font-size: 18px;
 }
 .accordian-wrapper ul li span:hover {
   color: red;

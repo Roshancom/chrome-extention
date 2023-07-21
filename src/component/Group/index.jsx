@@ -100,13 +100,15 @@ const Group = () => {
             />
           </div>
           <div className="input-wrapper">
-            <label
-              title="Click to get ReactIcons"
+           <abbr title="Click to get Icons">
+           <label
+              title="Click to get Icons"
               onClick={handleReactIconClick}
               htmlFor="reactIcon"
             >
               ReactIcon :
             </label>
+           </abbr>
             <input
               type="reactIcon"
               id="reactIcon"
