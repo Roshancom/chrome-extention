@@ -101,7 +101,7 @@ const Group = () => {
           </div>
           <div className="input-wrapper">
             <label
-              title="Click to reach on ReactIcons"
+              title="Click to get ReactIcons"
               onClick={handleReactIconClick}
               htmlFor="reactIcon"
             >
