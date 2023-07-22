@@ -24,9 +24,9 @@ const Buttons = ({ buttonActive }) => {
       <button
         className={`btn ${
           location.pathname.includes("link")
-            ? null
+            ? ""
             : location.pathname.includes("group")
-            ? null
+            ? ""
             : "active"
         }`}
         onClick={handleHomeClick}
@@ -35,7 +35,7 @@ const Buttons = ({ buttonActive }) => {
       </button>
       <button
         className={`btn ${
-          location.pathname.includes("link") ? "active" : null
+          location.pathname.includes("link") ? "active" : ""
         }`}
         onClick={handleLinkClick}
       >
@@ -43,7 +43,7 @@ const Buttons = ({ buttonActive }) => {
       </button>
       <button
         className={`btn ${
-          location.pathname.includes("group") ? "active" : null
+          location.pathname.includes("group") ? "active" : ""
         }`}
         onClick={handleGroupClick}
       >

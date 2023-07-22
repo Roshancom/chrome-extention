@@ -21,6 +21,11 @@ html {
 label {
   color: #fb2576;
 }
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .list .links .title button {
   background-color: #333;
   border-radius: 5px;
@@ -35,7 +40,7 @@ label {
 .home .title h1 {
   color: #fff;
   font-family: Tektur, cursive;
-  margin: 20px 0;
+  margin: 20px 15px;
 }
 .url,
 form .title {
@@ -43,7 +48,6 @@ form .title {
 }
 .list .links {
   height: 250px;
-  margin-top: 10px;
   overflow-y: scroll;
 }
 input {
