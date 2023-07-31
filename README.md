@@ -1,14 +1,15 @@
 <h2>Initial setup for extention</h2>
 
 <div>
-    <p>To connect with firebase, you need to go first<a href="https://firebase.google.com/?gad=1&gclid=CjwKCAjwt52mBhB5EiwA05YKo5dG9nEYuA5mDJ7cz0-Ly4zFBNPIEjlju59KRxIkwUGQAtKJDcwp4xoC8pEQAvD_BwE&gclsrc=aw.ds" target="_blank">firebase console </a>. Create your project, which provide you SDKs for Firebase products like below</p>
+    <p>To connect with firebase, you need to go first <a href="https://firebase.google.com/?gad=1&gclid=CjwKCAjwt52mBhB5EiwA05YKo5dG9nEYuA5mDJ7cz0-Ly4zFBNPIEjlju59KRxIkwUGQAtKJDcwp4xoC8pEQAvD_BwE&gclsrc=aw.ds" target="_blank">firebase console </a>. Create your project, which provide you SDKs for Firebase products like below</p>
+</div>
     <img src="./image/firebase.jpg"/>
-</div>
-    <p>Now, go to the firebase.js  and change the firebaseConfig with your code.</p>
-    <img src="./image/Add skd.jpg" />    
 <div>
-
+    <p>Now, go to the firebase.js  and change the firebaseConfig with your code.</p>
 </div>
+    <img src="./image/Add skd.jpg" />    
+
+
 
 <h1>Introduction about hezredirect</h1>
 
