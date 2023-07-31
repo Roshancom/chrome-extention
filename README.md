@@ -1,15 +1,13 @@
 <h2>Initial setup for extention</h2>
 
 <div>
-    <p>To connect with firebase, you need to go first <a href="https://firebase.google.com/?gad=1&gclid=CjwKCAjwt52mBhB5EiwA05YKo5dG9nEYuA5mDJ7cz0-Ly4zFBNPIEjlju59KRxIkwUGQAtKJDcwp4xoC8pEQAvD_BwE&gclsrc=aw.ds" target="_blank">firebase console </a>. Create your project, which provide you SDKs for Firebase products like below</p>
+    <p>In order to connect to a fireplace, you must go to the <a href="https://firebase.google.com/?gad=1&gclid=CjwKCAjwt52mBhB5EiwA05YKo5dG9nEYuA5mDJ7cz0-Ly4zFBNPIEjlju59KRxIkwUGQAtKJDcwp4xoC8pEQAvD_BwE&gclsrc=aw.ds" target="_blank"> firebase console </a>. Create a project that provides SDKs for Firebase products like the ones below.</p>
 </div>
     <img src="./image/firebase.jpg"/>
 <div>
-    <p>Now, go to the firebase.js  and change the firebaseConfig with your code.</p>
+    <p>Go to firebase.js and modify the firebaseConfig using your code.</p>
 </div>
-    <img src="./image/Add skd.jpg" />    
-
-
+    <img src="./image/Add skd.jpg" />
 
 <h1>Introduction about hezredirect</h1>
 
@@ -18,7 +16,7 @@
 
 <div>
     <h4>short brif</h4>
-    <p>First of all, user need to create group from this section, which also provide to insert  icon(from react icon, only devicons,gameicons,font awesome 5 and simpleicons) or img URL </p>
+    <p>The first step is to create a group from this section, which also provides the option to add icons (such as React icon, only devicons, game icons, font Awesome 5, and simple icons) or img URLs. </p>
 </div>
 
 <h2>Choose Group</h2>
@@ -34,7 +32,7 @@
 
 <div>
     <h4>short brif</h4>
-    <p>This is the section where you add the important URL.Provide a suitable name of your link in title and add link in Url, Hit enter. There you go.</p>
+    <p>This is the area where you add the URL. Include an appropriate name for your link in the title and add a link in Url, Hit Enter. You are on your way.</p>
 </div>
 
 <h2>Home Section</h2>
@@ -42,5 +40,5 @@
 
 <div>
     <h4>short brif</h4>
-    <p>Home section is the landing page of our extention,there you see list of accordion.</p>
+    <p>Our extension's home section is where you can find a list of accordions. Remove the accordion if it's no longer necessary.</p>
 </div>
