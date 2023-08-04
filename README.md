@@ -16,7 +16,7 @@
 
 <div>
     <h4>short brif</h4>
-    <p>The first step is to create a group from this section, which also provides the option to add icons (such as React icon, only devicons, game icons, font Awesome 5, and simple icons) or img URLs. </p>
+    <p>The first step is to create a group from this section, which also provides the option to add React icons (except Ionicons 5, Heroicons 2 and Font Awesome 6) or img URLs. </p>
 </div>
 
 <h2>Choose Group</h2>
